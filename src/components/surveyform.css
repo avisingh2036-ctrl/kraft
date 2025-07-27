@@ -1,0 +1,90 @@
+/* SurveyForm.css */
+
+.survey-container {
+  max-width: 500px;
+  margin: 50px auto;
+  background: #fff5f8;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", sans-serif;
+}
+
+.survey-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #c0392b;
+}
+
+form label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 6px;
+  color: #333;
+  font-weight: 600;
+}
+
+form input[type="number"],
+form input[type="text"],
+form select,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+form input:focus,
+form textarea:focus,
+form select:focus {
+  border-color: #e74c3c;
+  outline: none;
+}
+
+form textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+form button[type="submit"] {
+  margin-top: 20px;
+  background-color: #e74c3c;
+  color: white;
+  padding: 12px;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button[type="submit"]:hover {
+  background-color: #2596be;
+}
+
+.logout-btn {
+  margin-top: 15px;
+  background-color: transparent;
+  color: #c0392b;
+  border: 1px solid #c0392b;
+  padding: 10px;
+  width: 100%;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.logout-btn:hover {
+  background-color: #fcecec;
+}
+.muted-text {
+  text-align: center;
+  font-size: 0.85rem;
+  color: #999;
+  margin-top: 25px;
+  font-style: italic;
+}
